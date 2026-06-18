@@ -1,0 +1,20 @@
+{
+  "name": "task-cli",
+  "version": "1.0.0",
+  "description": "A fast, lightweight CLI task manager",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "task": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": ["cli", "task", "manager", "productivity"],
+  "author": "TheUndeadKnight",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
